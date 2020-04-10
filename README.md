@@ -31,7 +31,12 @@ cd ..
 docker build -t <YOUR_DOCKER_USERNAME>/glm-model .
 ```
 
-Install on CDrive by entering the path to your image and proceed as shown in the video.
+Push the image to docker hub
+```
+docker push <YOUR_DOCKER_USERNAME>/glm-model
+```
+
+Delete and re-install on CDrive by entering the path to your image and proceed as shown in the video.
 ```
 docker.io/<YOUR_DOCKER_USERNAME>/glm-model:latest
 ```
